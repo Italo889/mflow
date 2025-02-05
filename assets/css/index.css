@@ -1,0 +1,52 @@
+
+.maintenance-container {
+    min-height: calc(100vh - 200px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.maintenance-title {
+    font-family: 'Bangers', cursive;
+    color: #FF4654;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.maintenance-message {
+    color: rgba(255,255,255,0.8);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.social-notice {
+    background: rgba(255, 70, 84, 0.1);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+}
+
+.social-links-maintenance {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.social-links-maintenance a {
+    color: rgba(255,255,255,0.7);
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.social-links-maintenance a:hover {
+    color: #FF4654;
+    transform: translateY(-3px);
+}
